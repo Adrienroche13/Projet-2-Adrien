@@ -1,0 +1,24 @@
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../images/bann.jpg);
+    color: white;
+    padding: 130px 0; 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.banner h1 {
+    font-size: 3.25rem; 
+    font-weight: 700;
+    margin-bottom: 1rem; 
+.banner h2 {
+    font-size: 1.375rem;
+    font-weight: 300; /* Lighter is usually 300 weight */
+    opacity: 0.8;
+    margin-bottom: 1rem;
+}

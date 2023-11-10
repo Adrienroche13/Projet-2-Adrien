@@ -1,0 +1,22 @@
+.card {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 20px; /* Marge en haut */
+    margin-bottom: 20px; /* Marge en bas */
+    flex-basis: 250px;
+    flex-grow: 1;
+    background-color: #ffffff;
+    flex-direction: row;
+}
+
+.card img {
+    width: 180px;
+    border-radius: 8px;
+    object-fit: cover;
+}
